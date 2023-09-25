@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard Sederhana</title>
+    <style>
+    
+    
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 20px;
+        }
+        .member-card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            flex: 0 0 calc(50% - 50px); 
+        }
+        .member-card img {
+            max-width: 100%;
+            max-height: 300px;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .member-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .horizontal-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Dashboard Sederhana</h1>
+    </div>
+    <div class="container">
+        <h1>Selamat datang di Dashboard Sederhana!</h1>
+        <p>Ini adalah contoh halaman dashboard HTML sederhana dengan informasi anggota kelompok 3 :</p>
+        
+        <!-- Card Anggota Kelompok -->
+        <div class="horizontal-members">
+            <div class="member-card">
+                <img src="nabil.png" alt="Anggota 1">
+                <div class="member-info">
+                    <h2>2502007193</h2>
+                    <p>Nabil Izzaturrahman</p>
+                </div>
+            </div>
+            
+            <div class="member-card">
+                <img src="rendy_adidarma.png" alt="Anggota 2">
+                <div class="member-info">
+                    <h2>2440026244</h2>
+                    <p>Rendy Adidarma</p>
+                </div>
+            </div>
+            
+            <div class="member-card">
+                <img src="userfoto.png" alt="Anggota 3">
+                <div class="member-info">
+                    <h2>Anggota 3</h2>
+                    <p>Deskripsi Anggota 3.</p>
+                </div>
+            </div>
+            
+            <div class="member-card">
+                <img src="userfoto.png" alt="Anggota 4">
+                <div class="member-info">
+                    <h2>Anggota 4</h2>
+                    <p>Deskripsi Anggota 4.</p>
+                </div>
+            </div>
+            
+            <div class="member-card">
+                <img src="userfoto.png" alt="Anggota 5">
+                <div class="member-info">
+                    <h2>Anggota 5</h2>
+                    <p>Deskripsi Anggota 5.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
